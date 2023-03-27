@@ -1,3 +1,7 @@
+export function getPercents(percent, number) {
+	return number / 100 * percent;
+}
+
 export function getMonth(n) {
 	if (n === 1) return 'январь';
 	if (n === 2) return 'февраль';
